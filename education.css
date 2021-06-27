@@ -3,37 +3,23 @@
     padding:0;
 }
 .container{
-    width: 100%;
-    height: 58.5rem;
-    /* background-color: rgb(238, 155, 125); */
     display: grid;
     grid-template-columns: 1fr 3fr;
     grid-gap: 2rem;
-    
 }
 .box{
-    /* border:2px solid black; */
-    /* opacity: .8; */
     z-index: 1;
 }
-
 .box1{
-    position:static;
-    background-image: url(./background1.jpg);
-    background-repeat: no-repeat;
+    background-image: url(../images/background1.jpg);
     background-size: cover;
-    
     display: grid;
     grid-gap: 1rem;
     grid-template-rows: 1fr 3fr 1fr;
     grid-column-gap: 1rem;
-    
 }
-
-.box1-items{
-    
-    margin: 1rem;
-    /* border: 1px solid black; */
+.box1-items{   
+    margin: .93rem;
 }
 .a{
     border: .7rem solid rgb(233, 85, 85);
@@ -42,12 +28,11 @@
 .links{
     box-sizing: border-box;
     border-radius: 2rem;
-    border: 3px solid white;
+    border: .4rem solid white;
     padding: 1rem;
     margin: 2rem;
     text-align: center;
     justify-content: center;
-    
 }
 .alink{
     font-family: 'Mogra', cursive;
@@ -61,33 +46,36 @@
 }
 .alink:hover{
     text-decoration: underline;
-    /* font-size: 2.3rem; */
-    /* color:blue; */
 }
 .footer{
     text-align: center;
-    margin-top: 8rem;
+    margin-top: 3rem;
     color:white;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
-
 .box2{
     display: grid;
     grid-gap: 1rem;
     grid-template-rows: 1fr 3fr;
     grid-column-gap: 1rem;
-    /* justify-items: center; */
 }
 .box2-items{
     justify-items: center;
-    /* border: 2px solid black; */
+}
+.name{
+    font-size: 2.2rem;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 3.3rem 3.4rem, rgba(26, 89, 190, 0.12) 0px -.75rem 1.85rem, rgba(10, 118, 168, 0.12) 0px .25rem .375rem, rgba(18, 114, 204, 0.17) 0px .75rem .8125rem, rgba(34, 84, 219, 0.09) 0px -.1875rem .3125rem;
+    justify-content: center;
+    padding:2rem;
+    margin:3rem 5rem;
+    display: inline;
+    float:right;
 }
 .box2-items1 a{
     align-items: center;
     justify-content: right;
     box-sizing: border-box;
-    /* display: grid; */
-    /* float: left; */
     font-size: 3rem;
     text-decoration: none;
     color:black;
@@ -95,44 +83,21 @@
     padding:1rem;
 }
 .box2-items1 a:hover{
-    /* box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px; */
     color: rgb(32, 13, 206);
-    /* background-color: rgb(207, 206, 206); */
-}
-.name{
-    font-size: 2.2rem;
-    box-sizing: border-box;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(26, 89, 190, 0.12) 0px -12px 30px, rgba(10, 118, 168, 0.12) 0px 4px 6px, rgba(18, 114, 204, 0.17) 0px 12px 13px, rgba(34, 84, 219, 0.09) 0px -3px 5px;
-    justify-content: center;
-    padding:2rem;
-    margin:3rem 5rem;
-    display: inline;
-    float:right;
-    /* box-sizing: border-box;
-    border:2px solid black;
-    background-color: yellow; */
 }
 .c{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-gap: 2rem;
     width: 98%;
-    /* justify-items: center; */
-    /* justify-content: center; */
-    /* border: 2px solid black; */
 }
 .d{
     justify-items: center;
     width: 60%;
     margin-top: 7rem;
-    /* background-color: black; */
-    
-    /* border: 2px solid black; */
 }
 .e{
-    /* background-image: url(../images/background1.jpg); */
     background-color: black;
-    /* opacity: 1; */
     color: white;
     font-size: 1.5rem;
     box-sizing: border-box;
@@ -141,10 +106,9 @@
     height: 25rem;
     text-align: center;
     justify-content: center;
-    /* align-content: center; */
+
 }
 .info{
-    /* right:2rem; */
     font-family:'Times New Roman', Times, serif ;
     margin-left: 6.7rem;
     font-size: 2rem;
@@ -153,4 +117,44 @@
     display: inline;
     box-sizing: border-box;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(6, 24, 126, 0.25) 0px 0.125em 0.5em, rgba(6, 24, 126, 0.25) 0px 0px 0px 1px inset;
+}
+@media(max-width:1771px){
+    html{
+        font-size: 90%;
+    }
+}
+@media(max-width:1594px){
+    html{
+        font-size: 85%;
+    }
+}
+@media(max-width:1505px){
+    html{
+        font-size: 75%;
+    }
+}
+@media(max-width:1328px){
+    html{
+        font-size: 65%;
+    }
+}
+@media(max-width:1151px){
+    html{
+        font-size: 55%;
+    }
+}
+@media(max-width:974px){
+    html{
+        font-size: 45%;
+    }
+}
+@media(max-width:797px){
+    html{
+        font-size: 35%;
+    }
+}
+@media(max-width:797px){
+    html{
+        font-size: 25%;
+    }
 }
