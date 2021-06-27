@@ -11,7 +11,7 @@
     z-index: 1;
 }
 .box1{
-    background-image: url(../images/background1.jpg);
+    background-image: url(./background1.jpg);
     background-size: cover;
     display: grid;
     grid-gap: 1rem;
